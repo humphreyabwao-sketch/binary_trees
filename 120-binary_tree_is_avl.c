@@ -1,5 +1,4 @@
-
-#include "binary_trees.h"
+nclude "binary_trees.h"
 
 /**
  * binary_tree_height - measures the height of a binary tree.
@@ -88,5 +87,3 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 	/* If the right subtree is balanced, return 1. */
 	return (1);
 }
-
-/* CODE DOESN'T PASS ALL CHECKS */
